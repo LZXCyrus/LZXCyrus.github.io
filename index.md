@@ -9,19 +9,19 @@ I am mainly interested in natural language processing (NLP) and machine learning
 
 ## Toolchains
 
--**Python**, Familiar
+- **Python**, Familiar
 
-- Pytorch
+  - Pytorch
     
-- Pymysql
+  - Pymysql
 
--**Matlab**, Familiar
+- **Matlab**, Familiar
 
--**R**, Familiar
+- **R**, Familiar
 
--**SQL**, Familiar
+- **SQL**, Familiar
 
--**Latex**, Familiar
+- **Latex**, Familiar
 
--**Tablue & Neo4j & Anylogic**, Learning
+- **Tablue & Neo4j & Anylogic**, Learning
 
