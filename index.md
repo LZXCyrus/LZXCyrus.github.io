@@ -11,13 +11,13 @@ I am mainly interested in natural language processing (NLP) and machine learning
 
 -**Python**, Familiar
 
-- **Matlab**, Familiar
+-**Matlab**, Familiar
 
-- **R**, Familiar
+-**R**, Familiar
 
-- **SQL**, Familiar
+-**SQL**, Familiar
 
-- **Latex**, Familiar&Learning
+-**Latex**, Familiar&Learning
 
-- **Tablue & Neo4j & Anylogic**, Learning
+-**Tablue & Neo4j & Anylogic**, Learning
 
