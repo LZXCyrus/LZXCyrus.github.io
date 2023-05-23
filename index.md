@@ -11,9 +11,9 @@ I am mainly interested in natural language processing (NLP) and machine learning
 
 -**Python**, Familiar
 
-    - Pytorch
+- Pytorch
     
-    - Pymysql
+- Pymysql
 
 -**Matlab**, Familiar
 
