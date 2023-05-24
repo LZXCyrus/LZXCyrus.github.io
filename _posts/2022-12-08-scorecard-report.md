@@ -33,15 +33,28 @@ If you want to make a **Project Page**, you have to use `gh-pages` branch. For *
 变量的形态可以分为连续变量和分类变量，首先要进行单因子分析，单因子分析主要是为了检测变量对好坏的区分能力。接下来要做挑选出的变量的共线性分析，以保证模型变量的可靠性。
 
 ### 变量重要性分析
-由于采用信用评分卡模型，对变量的重要性的量化分析，我主要采用 WOE 值和IV 值进行变量显著性的评价。第二，为确保选取变量的有效性，我同时使用了基于变量特征重要性的变量筛选方法，即使用XGBoost与Lightgbm来辅助综合评估变量的重要性。由于IV值的计算是以WOE值为基础的，所以计算IV值之前，首先计算 WOE值（即[woe.py](https://github.com/LZXCyrus/scorecard/blob/main/woe.py)）。利用决策树获得最优分箱的边界值列表，然后求解每个变量的WOE值，再求解IV值（即[iv.py](https://github.com/LZXCyrus/scorecard/blob/main/iv.py)），最终得到了IV值最高的14个指标。
+由于采用信用评分卡模型，对变量的重要性的量化分析，我主要采用 WOE 值和IV 值进行变量显著性的评价。第二，为确保选取变量的有效性，我同时使用了基于变量特征重要性的变量筛选方法，即使用XGBoost与Lightgbm来辅助综合评估变量的重要性。由于IV值的计算是以WOE值为基础的，所以计算IV值之前，首先计算 WOE值（即[woe.py](https://github.com/LZXCyrus/scorecard/blob/main/woe.py)）。利用决策树获得最优分箱的边界值列表，然后求解每个变量的WOE值，再求解IV值，最终得到了IV值最高的14个指标。
 
 IV值前14的变量有13个都是连续变量。为增强模型的可解释性与合理性，我挑选了IV值前3的类别型变量加入候选数据。
 
 接下来，我继续使用 XGBoost 来辅助提取变量重要性，使用梯度提升算法的好处是在提升树被创建后，可以相对直接地得到每个属性的重要性得分。最终是将一个属性在所有提升树中的结果进行加权求和后然后平均，得到重要性得分。一个属性越多的被用来在模型中构建决策树，它的重要性就相对越高。
 
-可以得到，由XGBoost选出的最重要的8个变量，其中有4个在IV值筛选出的变量中也出现了。最后使用 Lightgbm 模型进行辅助提取变量重要性。
+可以得到，由XGBoost选出的最重要的8个变量，其中有4个在IV值筛选出的变量中也出现了。最后使用Lightgbm模型进行辅助提取变量重要性。
 
-![Halve Twitter Card]({{ site.url }}/images/post-image-halve-5.png)
+![Halve Twitter Card]({{ site.url }}/images/2022-12-08-01.png)
 
 ---
 
+此时仅有7个连续型变量在三种方法中至少出现两次，考虑到模型的合理性，加入之前预留的类别型变量中IV值最高的IS_ATTACH。主要依据IV值判断，综合三种方法考虑，最终选择连续型变量7个，类别型变量1个，共计8个变量作为 X 放入模型：
+
+| 最终选择的变量 |
+| 月息费 |
+| 偿债比 |
+| LOAN_AMT |
+| MTH_REPAY_AMT |
+| MULTIPLE_LOAN_7D |
+| IS_ATTACH |
+| unionpayinfo_faile_code_51 |
+| bairongmultiapplyinfo_al_m12_id_notbank_orgnu |
+
+接下来进行共线性分析（即[iv.py](https://github.com/LZXCyrus/scorecard/blob/main/iv.py)）。使用方差膨胀系数VIF来进行变量的多重共线性分析。全部变量中 VIF>100 的变量，即存在多重共线性严重的变量占比达到了70%以上，数据集的共线性较为严重。但筛选后的的八个变量的多重共线性大幅降低，可以接受。
