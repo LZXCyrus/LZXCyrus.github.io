@@ -3,9 +3,9 @@
   image: http://taylantatli.me/Halve/images/halve-home-image.png
   completed: false
 
-- title: Moon Jekyll Theme
-  url: http://taylantatli.me/Moon
-  image: https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
+- title: A Sample of ARIMA_EGARCH Model
+  url: https://github.com/LZXCyrus/ARIMA_EGARCH
+  image: https://pic4.zhimg.com/80/v2-b900624e26e0a06c32233326eb7c7763_qhd.jpg
   completed: true
 
 - title: Ramme Jekyll Theme
