@@ -11,153 +11,22 @@ tag:
 
 <br/>
 
-复盘后整理的课程作业报告，报告整思路很简单、很学生化，实际应用价值不大，主要是作一个记录和思路整理。
+复盘后整理的简洁课程作业报告，报告整思路很简单、很学生化，实际应用价值不大，主要是作一个记录和思路整理。
 
 <br/>
 
-## Installation and Quick Usage
-* Fork the [Halve repo](https://github.com/TaylanTatli/Halve/fork)
-* Edit `_config.yml` file.
-* Edit `index.md`.
-* Edit `_data/projects.yaml`
-* Add a logo with a small one to `images` folder. (eg. `logo.png`, `logo-small.png`)
-* Remove sample posts from `_posts` folder and add yours.
-* Remove/Change sample images from `images` folder.
-* Change repo name to `YourUserName.github.io`    
+## 背景及需要解决的问题
+随着中国的网络借贷市场的迅速扩大，用户申请手机分期越来越多。手机贷以采集互联网大数据作为主要征信源，进行有效的数据清洗、分析建模、个人信用评分，并与传统金融授信逻辑相结合，是实现撮合借贷交易的互联网金融平台。本报告将构建基于原始数据以及基于 WOE的逻辑回归模型，建立评分卡，通过2000 名用户申请手机分期的数据集，预测用户逾期未还款的概率，预估用户违约的信用风险。同时与其他分类模型进行分类效果比较，由此为是否给用户发放手机贷款的决策提供参考和建议。
      
 That's all.
 
 If you want to make a **Project Page**, you have to use `gh-pages` branch. For **Personal Page**; `master` branch. More info [here](https://help.github.com/articles/about-github-pages-and-jekyll/#jekylls-build-process).
 
-## Preview
+## 数据探索性分析及预处理
+* 数据集总体分析（正负样本比、样本范围、观察窗口选择）
+* 变量相关性分析（Pearson 相关系数、Spearman相关系数等）
+* 数据集缺失值分析（多种方式替换缺失值）
 
-{% capture images %}
-	{{ site.url }}/images/halve-home-image.png
-	{{ site.url }}/images/post-image-halve-1.png
-	{{ site.url }}/images/post-image-halve-2.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Halve Theme" cols=3 %}
+## 变量选择
 
-{% capture images %}
-	{{ site.url }}/images/post-image-halve-3.png
-	{{ site.url }}/images/post-image-halve-6.png
-	{{ site.url }}/images/post-image-halve-4.png
-{% endcapture %}
-{% include gallery images=images caption="Mobile view of Halve Theme" cols=3 %}
-      
-See a [live version of Halve](http://taylantatli.github.io/Halve) hosted on GitHub.      
 
-## Site Setup
-A quick checklist of the files you’ll want to edit to get up and running.    
-
-### Site Wide Configuration
-`_config.yml` is your friend. Open it up and personalize it. Most variables are self explanatory but here's an explanation of each if needed:
-
-#### title
-
-The title of your site... shocker!
-
-Example `title: My Awesome Site`
-
-#### description
-
-The description to use for meta tags and homepage.
-
-#### url
-
-Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for generating canonical URLs in `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. *Don't include a trailing `/`*.
-
-Examples:
-
-{% highlight yaml %}
-url: http://taylantatli.me/Halve
-url: http://localhost:4000
-url: //cooldude.github.io
-url:
-{% endhighlight %}
-
-#### logo
-Your site's logo. It will be shown on homepage. Also used for twitter meta tags.
-
-#### background
-Here we will set images for left block. Example:
-
-```
-background:
-  homepage: images/home.png
-  post-list: images/unsplash-image-10.jpg
-  default-post: images/unsplash-gallery-image-3.jpg 
-```
-
-<dl>
-  <dt>homepage</dt>
-  <dd>Is for homepage background image.</dd>
-  <dt>post-list</dt>
-  <dd>Is for posts list page background image.</dd>
-  <dt>default-post</dt>
-  <dd>Is for posts' default background image. It will be shown for every posts that don't specify any image from post's YAML front matter.</dd>
-</dl>
-
----
-
-### Projects Overlay
-
-To set what image links appear in the overlay menu edit `_data/projects.yaml`. Use the following format to set the URL, title, image and project status for as many links as you'd like. If you set `completed` to `false` like `completed: false`, it won't be clickable until you set it true like `completed: true`
-
-{% highlight yaml %}
-- title: Moon Jekyll Theme
-  url: http://taylantatli.me/Moon
-  image: https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-  completed: true
-
-- title: Ramme Jekyll Theme
-  url: http://taylantatli.me/Ramme
-  image: https://raw.githubusercontent.com/TaylanTatli/Ramme/master/assets/img/screenshot-post.png
-  completed: true
-
-- title: Daisy Pelican Theme
-  url: http://taylantatli.me/Daisy-Pelican-Theme/
-  image: https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png
-  completed: true
-
-- title: Block Icon Theme
-  url: https://github.com/TaylanTatli/Block-Icon-Theme
-  image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
-  completed: false
-
-- title: Start Page
-  url: http://taylantatli.me/StartPage/
-  image: https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png
-  completed: false
-{% endhighlight %}
-
----
-
-## Layouts and Content
-
-Halve Theme use [Jekyll Compress](https://github.com/penibelst/jekyll-compress-html) to compress html output. But it can cause errors if you use "linenos" (line numbers). I suggest don't use line numbers for codes, because it won't look good with this theme, also i didn't give a proper style for them. If you insist to use line numbers, just remove `layout: compress` string from layouts. It will disable compressing.
-
-### Images for Posts
-
-You can set left block image per post. Just add `image: some link` to your post's front matter. If you don't set this, default post image will be used from `_config.yml`.
-
-```
-image: /assets/img/some-image.png
-or
-image: http://example.com/some-image.png
-```    
- This also will be used for twitter card:
-
-![Halve Twitter Card]({{ site.url }}/images/post-image-halve-5.png)
-
----
-
-## Questions?
-
-Found a bug or aren't quite sure how something works? By all means [file a GitHub Issue](https://github.com/TaylanTatli/Halve/issues/new). And if you make something cool with this theme feel free to let me know.
-
----
-
-## License
-
-This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.
