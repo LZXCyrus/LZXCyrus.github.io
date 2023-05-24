@@ -9,8 +9,12 @@ tag:
 - blog
 ---
 
+<br/>
+
 复盘后整理的课程作业报告，报告整思路很简单、很学生化，实际应用价值不大，主要是作一个记录和思路整理。
-      
+
+<br/>
+
 ## Installation and Quick Usage
 * Fork the [Halve repo](https://github.com/TaylanTatli/Halve/fork)
 * Edit `_config.yml` file.
