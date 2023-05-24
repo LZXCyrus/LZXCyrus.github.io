@@ -74,10 +74,12 @@ IV值前14的变量有13个都是连续变量。为增强模型的可解释性�
 
 设置基准比率 o 翻倍对应的分数 p 为-5，其绝对值与分数的离散程度呈正比。因为 p 为负时，模型评分越大、目标变量为正的概率越高，适用于大多数二元分类问题。基准比率 o 对应的预期分值设置为 60。由此，可以对 8 个变量都进行评分，最终汇总，得到最后的评分卡。
 
+[scorecard.py](https://github.com/LZXCyrus/scorecard/blob/main/scorecard.py)
+
 ## 结果评估
 使用该评分卡对测试集的样本进行评分，结果通过条形图进行展示：
 
-![Halve Twitter Card]({{ site.url }}/images/2022-12-08-01.png)
+![Halve Twitter Card]({{ site.url }}/images/2022-12-08-02.png)
 
 ---
 
@@ -90,3 +92,5 @@ IV值前14的变量有13个都是连续变量。为增强模型的可解释性�
 
 可以得到，这个基于 WOE 的逻辑回归模型建立的评分卡模型auc值较高拟合情况比较理想。模型的KS值较高，说明了模型的区分能力强。综合可以说明这个评分卡对每个样本的评分能够有效地预测客户是否会有逾期还款的风险。
 
+## 与其他模型的效果比较
+例如随机森林模型（即[randomforest.py](https://github.com/LZXCyrus/scorecard/blob/main/randomforest.py)）
