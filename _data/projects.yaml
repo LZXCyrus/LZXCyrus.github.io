@@ -1,7 +1,7 @@
-- title: Halve Jekyll Theme
-  url: http://taylantatli.me/Halve
-  image: http://taylantatli.me/Halve/images/halve-home-image.png
-  completed: false
+- title: GraphSAGE for Fake News Detection
+  url: https://github.com/LZXCyrus/GraphSAGE_for_node_classification
+  image: https://domainnamewire.com/wp-content/fake-news.jpg
+  completed: true
 
 - title: A Sample of ARIMA_EGARCH Model
   url: https://github.com/LZXCyrus/ARIMA_EGARCH
