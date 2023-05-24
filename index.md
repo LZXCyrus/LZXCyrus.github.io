@@ -5,19 +5,18 @@ layout: home
 
 I am an undergraduate majoring in Data Science and Big Data of the Southwestern University of Finance and Economics.
 
-I am mainly interested in natural language processing (NLP) and machine learning (ML), especially focusing on the construction and application of Knowledge Graph (KG) and Large Language Models (LLM) that have recently emerged.
+I am mainly interested in natural language processing (NLP) and machine learning (ML), especially focusing on the construction and application of Knowledge Graph (KG) and Large Language Models (LLM) that have recently emerged. My toolchains are as followed: 
 
-My **Toolchains** are as followed:
- 
--**Python**, Familiar
+-**Python & R & Matlab**, Familiar
 
--**Matlab**, Familiar
-
--**R**, Familiar
-
--**SQL**, Familiar
-
--**Latex & Markdown**, Familiar&Learning
+-**SQL & Office & Latex & Markdown**, Familiar&Learning
 
 -**Tablue & Neo4j & Anylogic**, Learning
+
+Besides my status as a student, I have various weird hobbies. I am also a fanatical fan of Borussia Dortmund, 
+
+
+ 
+
+
 
