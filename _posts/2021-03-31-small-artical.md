@@ -8,158 +8,68 @@ tag:
 - Siddhartha
 - mood
 ---
+       
+# 不必等待戈多
 
-<a href="{{ site.url }}/images/halve-home-image.png"><img src="{{ site.url }}/images/halve-home-image.png" alt="Home Page of Halve"></a>  
+我来到世间，跟我同来的还有一人。
 
-<center><b>Halve</b> is a stylish, two-column jekyll theme.</center><br>
-     
- This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)). I couldn't stop myself to port this theme when I saw his site. And he kindly gave me permission to share this with you.
+可他半路消失，留下一句“在这里等着我”。
 
-<iframe src="https://ghbtns.com/github-btn.html?user=TaylanTatli&repo=Halve&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>    
-      
-## Installation and Quick Usage
-* Fork the [Halve repo](https://github.com/TaylanTatli/Halve/fork)
-* Edit `_config.yml` file.
-* Edit `index.md`.
-* Edit `_data/projects.yaml`
-* Add a logo with a small one to `images` folder. (eg. `logo.png`, `logo-small.png`)
-* Remove sample posts from `_posts` folder and add yours.
-* Remove/Change sample images from `images` folder.
-* Change repo name to `YourUserName.github.io`    
-     
-That's all.
+刚开始时，我在苹果树下踱步。不远处瀑布倾泻而下，溅起水雾，吐出一弯彩虹。水流蜿蜒至我脚边时方才缓了下来。我身旁的麋鹿慢慢走进水中，开始喝水，那巨大的角惊吓到了驻足浅水休息的火烈鸟们，他们愤怒地扑腾着飞上天空，不远处大象正毁坏着水獭的大坝。
 
-If you want to make a **Project Page**, you have to use `gh-pages` branch. For **Personal Page**; `master` branch. More info [here](https://help.github.com/articles/about-github-pages-and-jekyll/#jekylls-build-process).
+看着眼前荒谬的一切，我不禁去想，我为何要在此处等他，这荒诞之地在寰宇中于我毫无价值，令我心生厌恶，然而我要在此等他。我绞劲脑汁，像西西弗斯般费力推动下定决心离开的巨石，可它却一次次滚下山坡。于是我终日驻足在苹果树下，思考而不得。
 
-## Preview
+不知过了多少个日日夜夜，他仍然没有出现。
 
-{% capture images %}
-	{{ site.url }}/images/halve-home-image.png
-	{{ site.url }}/images/post-image-halve-1.png
-	{{ site.url }}/images/post-image-halve-2.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Halve Theme" cols=3 %}
+当我正冥思苦想之时，一位老者出现在我的身前。
 
-{% capture images %}
-	{{ site.url }}/images/post-image-halve-3.png
-	{{ site.url }}/images/post-image-halve-6.png
-	{{ site.url }}/images/post-image-halve-4.png
-{% endcapture %}
-{% include gallery images=images caption="Mobile view of Halve Theme" cols=3 %}
-      
-See a [live version of Halve](http://taylantatli.github.io/Halve) hosted on GitHub.      
+他微笑着问我：“你想离开这里？”
 
-## Site Setup
-A quick checklist of the files you’ll want to edit to get up and running.    
+“我在等人，他长得很瘦弱，他脸上有一道疤。”
 
-### Site Wide Configuration
-`_config.yml` is your friend. Open it up and personalize it. Most variables are self explanatory but here's an explanation of each if needed:
+“那我或许见过这个人，他正在翻山过去的小镇上卖水果呢。这异乡人是某天突然出现在村庄里的，就这样卖了好多年。”
 
-#### title
+“我选择不去。”我这么告诉他，“我不知道你会不会是上了年纪，眼花了，还是根本就是随口编造。我绝对不能冒错过他的风险。”
 
-The title of your site... shocker!
+“那好吧。”老者依旧微笑着，蹒跚离开。
 
-Example `title: My Awesome Site`
+我再次陷入沉思中。
 
-#### description
+过了几个月——或许吧，因为苹果树上的叶子已经渐渐凋零了，一个牧童在一天上午牵着羊走近我，眼中满是好奇。
 
-The description to use for meta tags and homepage.
+“我在这里等人，”我对他说，“他长得很瘦弱，他脸上有一道疤。”
 
-#### url
+“我见过他。”牧童思考一阵后惊喜地说，“他就住在这条河下游最大的城市里，他经商，赚得了很多钱，现在整天在他自己的别墅里纵情声色，他的事永远是这片区域人们饭后最大的谈资。”
 
-Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for generating canonical URLs in `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. *Don't include a trailing `/`*.
+他轻轻地摸着羊，眼里发出温柔的光：“你去找他吧。”
 
-Examples:
+我踌躇好一阵子。直到牧童渐渐走远，我才大喊出来：“我选择不去！差点就上了你的当，这样的一个富商会身材羸弱吗？”
 
-{% highlight yaml %}
-url: http://taylantatli.me/Halve
-url: http://localhost:4000
-url: //cooldude.github.io
-url:
-{% endhighlight %}
+我的回音在山谷中回荡，与瀑布碰撞出尖锐的噪音。
 
-#### logo
-Your site's logo. It will be shown on homepage. Also used for twitter meta tags.
+不知又过了多久，雪突然开始漫天洒落，瀑布也被冻住了，冬天到了。我在这阴冷潮湿的夜晚遇见了一个行色匆匆的赶路人。
 
-#### background
-Here we will set images for left block. Example:
+我把他拦下来：“我在等人。”
 
-```
-background:
-  homepage: images/home.png
-  post-list: images/unsplash-image-10.jpg
-  default-post: images/unsplash-gallery-image-3.jpg 
-```
+他略微一愣，然后笑着拍了拍我的肩膀：“你好先生，我叫戈多。我能为您效劳吗？”
 
-<dl>
-  <dt>homepage</dt>
-  <dd>Is for homepage background image.</dd>
-  <dt>post-list</dt>
-  <dd>Is for posts list page background image.</dd>
-  <dt>default-post</dt>
-  <dd>Is for posts' default background image. It will be shown for every posts that don't specify any image from post's YAML front matter.</dd>
-</dl>
+“你见过他吗？”
 
----
+“他身材瘦弱，脸上有道疤。”
 
-### Projects Overlay
+自称戈多的年轻人脸上露出难堪的神色。“恐怕他已经死了，先生。他就被安葬在下游那座城市的私人墓地里。他太老了，先生。他的子女们都盼着继承万贯家财呢——你要去看看他吗？”
 
-To set what image links appear in the overlay menu edit `_data/projects.yaml`. Use the following format to set the URL, title, image and project status for as many links as you'd like. If you set `completed` to `false` like `completed: false`, it won't be clickable until you set it true like `completed: true`
+“不。”我哭出声来。虽然长久以来，我从未让我的泪水浸入这片山谷的泥土里，但此时我的内心已经被绝望与痛楚填满了。
 
-{% highlight yaml %}
-- title: Moon Jekyll Theme
-  url: http://taylantatli.me/Moon
-  image: https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-  completed: true
+“我选择不去见他。”
 
-- title: Ramme Jekyll Theme
-  url: http://taylantatli.me/Ramme
-  image: https://raw.githubusercontent.com/TaylanTatli/Ramme/master/assets/img/screenshot-post.png
-  completed: true
+“好的先生，祝您愉快。”他充满怜悯地再次轻柔地拍了拍我，背上行囊再次启程。
 
-- title: Daisy Pelican Theme
-  url: http://taylantatli.me/Daisy-Pelican-Theme/
-  image: https://raw.githubusercontent.com/TaylanTatli/Daisy-Pelican-Theme/master/Preview-1.png
-  completed: true
+我继续痛哭，悲伤的眼泪正在腐蚀我的脸庞。他在与别的小贩争吵时，我是否正在此徘徊不前？他在喝酒划拳时，我是否正在此徘徊不前？他在奄奄一息之际无人站在他的床边时，我是否正在此徘徊不前？这一切都消散在风里了。
 
-- title: Block Icon Theme
-  url: https://github.com/TaylanTatli/Block-Icon-Theme
-  image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
-  completed: false
+蓦然，我想起了那过路的彬彬有礼的年轻人。我曾一眼扫过他厚重的兜帽下，隐藏着的巨大的伤疤。
 
-- title: Start Page
-  url: http://taylantatli.me/StartPage/
-  image: https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png
-  completed: false
-{% endhighlight %}
+我终于选择离开，我将西西弗斯的巨石甩在身后。
 
----
+我开始狂奔，我要追上他。
 
-## Layouts and Content
-
-Halve Theme use [Jekyll Compress](https://github.com/penibelst/jekyll-compress-html) to compress html output. But it can cause errors if you use "linenos" (line numbers). I suggest don't use line numbers for codes, because it won't look good with this theme, also i didn't give a proper style for them. If you insist to use line numbers, just remove `layout: compress` string from layouts. It will disable compressing.
-
-### Images for Posts
-
-You can set left block image per post. Just add `image: some link` to your post's front matter. If you don't set this, default post image will be used from `_config.yml`.
-
-```
-image: /assets/img/some-image.png
-or
-image: http://example.com/some-image.png
-```    
- This also will be used for twitter card:
-
-![Halve Twitter Card]({{ site.url }}/images/post-image-halve-5.png)
-
----
-
-## Questions?
-
-Found a bug or aren't quite sure how something works? By all means [file a GitHub Issue](https://github.com/TaylanTatli/Halve/issues/new). And if you make something cool with this theme feel free to let me know.
-
----
-
-## License
-
-This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.
