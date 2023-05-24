@@ -7,9 +7,10 @@ I am an undergraduate majoring in Data Science and Big Data of the Southwestern 
 
 I am mainly interested in natural language processing (NLP) and machine learning (ML), especially focusing on the construction and application of Knowledge Graph (KG) and Large Language Models (LLM) that have recently emerged.
 
-## Toolchains
+### Toolchains
 
  <br/>
+ 
 -**Python**, Familiar
 
 -**Matlab**, Familiar
@@ -18,7 +19,7 @@ I am mainly interested in natural language processing (NLP) and machine learning
 
 -**SQL**, Familiar
 
--**Latex**, Familiar&Learning
+-**Latex & Markdown**, Familiar&Learning
 
 -**Tablue & Neo4j & Anylogic**, Learning
 
