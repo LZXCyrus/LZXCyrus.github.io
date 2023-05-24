@@ -13,7 +13,7 @@ I am interested in natural language processing (NLP) and machine learning (ML), 
 
 -**Tablue & Neo4j & Anylogic**, Learning
 
-Besides my status as a student, I have various weird hobbies. I am a fanatical fan of Borussia Dortmund, very amateurish astronomy hobbyist, LEGO enthusiast, Spanish beginner and amateur novel writer (James Joyce is the writer I admire most). 
+Besides my status as a student, I have various weird hobbies. I am also a fanatical fan of Borussia Dortmund, very amateurish astronomy hobbyist, LEGO enthusiast, Spanish beginner and amateur novel writer (James Joyce is the writer I admire most). 
 
 
  
