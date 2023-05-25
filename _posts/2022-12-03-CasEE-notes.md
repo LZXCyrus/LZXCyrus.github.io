@@ -11,4 +11,4 @@ tag:
 
 <br/>
 
-CasEE: A Joint Learning Framework with Cascade Decoding for Overlapping Event Extraction
+The experiment is based on the code of paper *CasEE: A Joint Learning Framework with Cascade Decoding for Overlapping Event Extraction*.
