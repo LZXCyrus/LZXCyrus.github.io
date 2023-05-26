@@ -43,7 +43,7 @@ CasEE is a joint learning framework with Cascade decoding for overlapping Event 
 <br/>
 
 ## Code
-* Environments required by the paper:
+**Environments required by the paper**:
 
 python 3.6
 
@@ -55,7 +55,7 @@ pytorch == 1.1.0
 
 transformers == 4.9.1
 
-* My experiments:
+**My experiments**:
 
 python 3.9
 
