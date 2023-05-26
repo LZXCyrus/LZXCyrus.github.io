@@ -31,7 +31,7 @@ CasEE is a joint learning framework with Cascade decoding for overlapping Event 
 
 > Examples of event overlapping problem: (a)Events with overlapped triggers and arguments; (b) An event with an overlapped argument in several roles.
 
-
+![Halve Twitter Card]({{ site.url }}/images/2022-12-03-01.png)
 
 * Proposing CasEE, a novel joint learning framework with cascade decoding, to simultaneously solve all the three overlapping patterns.
 
@@ -81,9 +81,14 @@ TYPES = [ '起诉', '投资', '减持', '股份股权转让', '质押', '收购'
 
 Then Type Detection Decoder, Trigger Extraction Decoder and Argument Extraction Decoder are used to learn data.
 
+![Halve Twitter Card]({{ site.url }}/images/2022-12-03-02.png)
+
 ## Training
 
-I didn't complete the whole training because of the time constraints. When the model trained on the first epoch of training steps 335, ED loss basically started to fluctuate and stopped declining. However,
+I didn't complete the whole training because of the time constraints. When the model trained on the first epoch of training steps 335, ED loss basically started to fluctuate and stopped declining. However, TE loss and AE loss performed well.
 
+![Halve Twitter Card]({{ site.url }}/images/2022-12-03-03.png)
+
+![Halve Twitter Card]({{ site.url }}/images/2022-12-03-04.png)
 
 
