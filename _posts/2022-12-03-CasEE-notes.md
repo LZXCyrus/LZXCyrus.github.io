@@ -85,9 +85,12 @@ Then Type Detection Decoder, Trigger Extraction Decoder and Argument Extraction 
 
 ## Training
 
-I didn't complete the whole training because of the time constraints. When the model trained on the first epoch of training steps 335, ED loss basically started to fluctuate and stopped declining. However, TE loss and AE loss performed well.
+When the model trained on the first epoch of training steps 335, ED loss basically started to fluctuate and stopped declining. 
 
 ![Halve Twitter Card]({{ site.url }}/images/2022-12-03-03.png)
+
+However, TE loss and AE loss performed well. The results I got of event extraction on FewFC datase performed good. (TI, TC, AI, AC denote trigger identification, trigger
+classification, argument identification and argument classification)
 
 ![Halve Twitter Card]({{ site.url }}/images/2022-12-03-04.png)
 
