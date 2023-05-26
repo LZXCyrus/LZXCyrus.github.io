@@ -83,8 +83,7 @@ Then Type Detection Decoder, Trigger Extraction Decoder and Argument Extraction 
 
 ## Training
 
-When the model trained on the first epoch of training steps 335, the loss function basically started to fluctuate and stopped declining, but the original code set 20 epoches.
-
+I didn't complete the whole training because of the time constraints. When the model trained on the first epoch of training steps 335, ED loss basically started to fluctuate and stopped declining. However,
 
 
 
