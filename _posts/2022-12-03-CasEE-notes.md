@@ -28,6 +28,47 @@ CasEE is a joint learning framework with Cascade decoding for overlapping Event 
 ## Contributions
 
 * InvestigatING the overlapping problems in EE, and categorize them into three patterns. This paper is among the first to simultaneously tackle all the three overlapping patterns.
+
+> Examples of event overlapping problem: (a)Events with overlapped triggers and arguments; (b) An event with an overlapped argument in several roles.
+
+
+
 * Proposing CasEE, a novel joint learning framework with cascade decoding, to simultaneously solve all the three overlapping patterns.
+
 * Conducting experiments on a public Chinese financial event extraction benchmark, FewFC.
 
+> a sample example:
+> {"id": "cbc5a8ed0bc6dcebd15cbe5d2b6b8311", "content": "兴发集团发布公告,控股股东宜昌兴发集团有限责任公司于2019年11月20日将2000万股进行质押,质押方为上海浦东发展银行股份有限公司宜昌分行,质押股数占其所持股份比例的8.50%,占公司总股本的2.15%。", "occur": ["质押"], "type": "质押", "triggers": [[46, 48]], "index": 0, "args": {"collateral": [[43, 44]], "proportion": [[85, 90]], "obj-org": [[53, 71]], "number": [[38, 43]], "date": [[26, 37]], "sub-org": [[13, 25]]}}
+
+<br/>
+
+## Code
+* Environments required by the paper:
+
+python 3.6
+
+CUDA: 9.0
+
+GPU: Tesla T4
+
+pytorch == 1.1.0
+
+transformers == 4.9.1
+
+* My experiments:
+
+python 3.9
+
+CUDA: 11.7
+
+GPU: Tesla V100
+
+pytorch == 1.13.1
+
+transformers == 4.20.1
+
+> Using  bert pre-training model "Bert-Base-Chinese" provided by Hugging Face
+
+First to deal with data sets: 
+
+TYPES = [ '起诉', '投资', '减持', '股份股权转让', '质押', '收购', '判决', '签署合同', '担保', '中标' ]
