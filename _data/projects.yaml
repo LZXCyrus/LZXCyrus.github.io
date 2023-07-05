@@ -18,10 +18,10 @@
   image: https://theenergyst.com/wp-content/uploads/2017/07/Dark-Airport1.jpeg
   completed: true
 
-- title: Block Icon Theme
-  url: https://github.com/TaylanTatli/Block-Icon-Theme
-  image: https://raw.githubusercontent.com/TaylanTatli/Block-Icon-Theme/master/Preview.png
-  completed: false
+- title: Vehicle Voice Recognition by GMM-HMM
+  url: https://github.com/LZXCyrus/Vehicle_Voice_Recognition
+  image: https://img.zcool.cn/community/01131c5d25605aa80120b5abd3f5dd.jpg@1280w_1l_2o_100sh.jpg
+  completed: true
 
 - title: Start Page
   url: http://taylantatli.me/StartPage/
