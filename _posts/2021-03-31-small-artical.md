@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "《悉达多》读后感"
+title:  "随笔 | 不必等待戈多"
 date:   2021-03-31
-excerpt: "一时兴起写出的小故事，权当作读后感吧"
+excerpt: "一时兴起写出的小故事，权当作《悉达多》的读后感吧"
 tag:
 - informal essay
 - Siddhartha
