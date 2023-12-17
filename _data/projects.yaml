@@ -1,9 +1,9 @@
-- title: GraphSAGE for Fake News Detection
+- title: GraphSAGE Fake News Detection
   url: https://github.com/LZXCyrus/GraphSAGE-for-node-classification
   image: http://img.zhiding.cn/5/471/lioD2xFz9lRmI.png
   completed: true
 
-- title: ARIMA-EGARCH of Gold Silver Ratio Forecasting
+- title: ARIMA-EGARCH Gold Silver Ratio Forecasting
   url: algorithm
   image: https://n.sinaimg.cn/sinakd20200729s/394/w716h478/20200729/5144-iwxpesx8165718.jpg
   completed: true
@@ -18,7 +18,7 @@
   image: https://theenergyst.com/wp-content/uploads/2017/07/Dark-Airport1.jpeg
   completed: true
 
-- title: Vehicle Sound Recognition by GMM-HMM
+- title: GMM-HMM Vehicle Sound Recognition
   url: https://github.com/LZXCyrus/Vehicle_Voice_Recognition
   image: https://img.zcool.cn/community/01131c5d25605aa80120b5abd3f5dd.jpg@1280w_1l_2o_100sh.jpg
   completed: true
