@@ -23,7 +23,7 @@
   image: https://img.zcool.cn/community/01131c5d25605aa80120b5abd3f5dd.jpg@1280w_1l_2o_100sh.jpg
   completed: true
 
-- title: Start Page
-  url: http://taylantatli.me/StartPage/
+- title: More Blogs
+  url: https://blog.csdn.net/m0_65814643
   image: https://raw.githubusercontent.com/TaylanTatli/StartPage/master/preview.png
   completed: false
