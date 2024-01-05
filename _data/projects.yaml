@@ -13,11 +13,6 @@
   image: https://www.repsol.com/imagenes/global/en/ratings_tcm14-38280.jpg
   completed: true
 
-- title: An improvement of Floyd Algorithm
-  url: https://github.com/LZXCyrus/improved-Floyd-Algorithm
-  image: https://theenergyst.com/wp-content/uploads/2017/07/Dark-Airport1.jpeg
-  completed: true
-
 - title: GMM-HMM Vehicle Sound Recognition
   url: https://github.com/LZXCyrus/Vehicle_Voice_Recognition
   image: https://img.zcool.cn/community/01131c5d25605aa80120b5abd3f5dd.jpg@1280w_1l_2o_100sh.jpg
