@@ -8,20 +8,20 @@
   image: https://www.nasachina.cn/wp-content/uploads/2024/01/nameraurora-vir-2023309-lrg.webp
   completed: true
 
-- title: GraphSAGE Fake News Detection
-  url: https://github.com/LZXCyrus/GraphSAGE-for-node-classification
-  image: http://img.zhiding.cn/5/471/lioD2xFz9lRmI.png
-  completed: true
+# - title: GraphSAGE Fake News Detection
+#   url: https://github.com/LZXCyrus/GraphSAGE-for-node-classification
+#   image: http://img.zhiding.cn/5/471/lioD2xFz9lRmI.png
+#   completed: true
 
-- title: ARIMA-EGARCH Forecasting Project
-  url: algorithm
-  image: https://n.sinaimg.cn/sinakd20200729s/394/w716h478/20200729/5144-iwxpesx8165718.jpg
-  completed: true
+# - title: ARIMA-EGARCH Forecasting Project
+#   url: algorithm
+#   image: https://n.sinaimg.cn/sinakd20200729s/394/w716h478/20200729/5144-iwxpesx8165718.jpg
+#   completed: true
 
-- title: Scorecard Model Project
-  url: https://github.com/LZXCyrus/scorecard
-  image: https://www.nasachina.cn/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.webp
-  completed: true
+# - title: Scorecard Model Project
+#   url: https://github.com/LZXCyrus/scorecard
+#   image: https://www.nasachina.cn/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.webp
+#   completed: true
 
 # - title: GMM-HMM Vehicle Sound Recognition
 #   url: https://github.com/LZXCyrus/Vehicle_Voice_Recognition
