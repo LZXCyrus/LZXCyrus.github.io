@@ -1,11 +1,11 @@
-- title: More Blogs
-  url: https://blog.csdn.net/m0_65814643
-  image: https://www.nasachina.cn/wp-content/uploads/2022/07/STScI-SMACS0723_webb.png
-  completed: true
-
 - title: NKETool (News Knowledge Extraction Tool)
   url: https://github.com/LZXCyrus/NKETool
   image: https://www.nasachina.cn/wp-content/uploads/2024/01/nameraurora-vir-2023309-lrg.webp
+  completed: true
+
+- title: MGNN
+  url: https://github.com/LZXCyrus/MGNN
+  image: https://www.nasachina.cn/wp-content/uploads/2024/01/SeagullToCalifornia_Symon_2000.jpg
   completed: true
 
 # - title: GraphSAGE Fake News Detection
@@ -21,6 +21,11 @@
 - title: Scorecard Model Project
   url: https://github.com/LZXCyrus/scorecard
   image: https://www.nasachina.cn/wp-content/uploads/2024/01/simsbury-oli2-2022258-lrg.webp
+  completed: true
+
+  - title: More Blogs
+  url: https://blog.csdn.net/m0_65814643
+  image: https://www.nasachina.cn/wp-content/uploads/2022/07/STScI-SMACS0723_webb.png
   completed: true
 
 # - title: GMM-HMM Vehicle Sound Recognition
