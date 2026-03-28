@@ -58,12 +58,12 @@ const AboutPage = () => {
 
   const education = [
     {
-      degree: isEnglish ? 'B.S. Data Science and Big Data Technology' : '数据科学与大数据技术学士',
+      degree: isEnglish ? 'B.S. Data Science and Big Data Technology' : '数据科学与大数据技术 学士',
       school: isEnglish ? 'Southwestern University of Finance and Economics' : '西南财经大学',
       period: '2020 - 2024',
     },
     {
-      degree: isEnglish ? 'M.S. Management Science and Engineering' : '管理科学与工程硕士',
+      degree: isEnglish ? 'M.S. Management Science and Engineering' : '管理科学与工程 硕士',
       school: isEnglish ? 'Southwestern University of Finance and Economics' : '西南财经大学',
       period: '2024 - 2027',
     },
