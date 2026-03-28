@@ -63,7 +63,7 @@ const AboutPage = () => {
       period: '2020 - 2024',
     },
     {
-      degree: isEnglish ? 'M.S. management science and engineering' : '管理科学与工程硕士',
+      degree: isEnglish ? 'M.S. Management Science and Engineering' : '管理科学与工程硕士',
       school: isEnglish ? 'Southwestern University of Finance and Economics' : '西南财经大学',
       period: '2024 - 2027',
     },
