@@ -146,8 +146,8 @@ const AboutPage = () => {
             </p>
             <p className="text-anthropic-taupe leading-relaxed mb-8">
               {isEnglish
-                ? 'When I\'m not coding, you can find me writing novels, video editing, doing photography, or hanging out at various live music shows.'
-                : '当我不写代码时，你可以发现我在写小说、影视剪辑、摄影，或是穿梭在各个 live 现场。'}
+                ? 'When I\'m not coding, you can find me writing novels, editing videos, taking photos, traveling, or enjoying live shows.'
+                : '当我不写代码时，你可以发现我在写小说、做影视剪辑、摄影、旅行，或者看live。'}
             </p>
 
             {/* Contact Info */}
