@@ -61,10 +61,17 @@ const BlogPage = () => {
                   whileHover={{ y: -5 }}
                 >
                   {/* Image placeholder */}
-                  <div className="h-48 bg-gradient-to-br from-anthropic-taupe/20 to-anthropic-terracotta/10 flex items-center justify-center">
+                  {/* <div className="h-48 bg-gradient-to-br from-anthropic-taupe/20 to-anthropic-terracotta/10 flex items-center justify-center">
                     <span className="text-6xl opacity-30 group-hover:opacity-50 transition-opacity">
                       {index === 0 ? '📝' : '💻'}
                     </span>
+                  </div> */}
+                  <div className="h-48 overflow-hidden">
+                    <img 
+                      src={index === 0 ? "/images/blog1.jpg" : "/images/blog2.jpg"} 
+                      alt="blog cover"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
 
                   <div className="p-8">
