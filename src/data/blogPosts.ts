@@ -90,7 +90,7 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     readingTime: '15 分钟阅读',
     readingTimeEn: '15 min read'
-  }
+  },
   {
     id: '6',
     title: 'OWKRL：2024年的视觉推理任务不用VLMs还可以怎么做',
