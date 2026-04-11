@@ -65,7 +65,7 @@ export const projects: Project[] = [
     descriptionEn: 'A live event management app to track your live music experiences on a map.',
     longDescription: '一款专为现场音乐爱好者设计的演出信息管理工具。通过交互式地图展示演出位置，支持网格/列表两种布局浏览演出记录，按年份时间轴追溯音乐足迹，完整记录每个演出的艺人、场地、时间、标签等信息。',
     longDescriptionEn: 'A live event management tool designed for live music enthusiasts. Display演出位置 on an interactive map, browse events in grid/list layouts, trace your musical journey through a timeline by year, and keep complete records of artists, venues, dates, tags and more for each event.',
-    image: 'https://github.com/LZXCyrus/LiveMap/blob/main/img/livemap1.png',
+    image: '/images/project3.jpg',
     technologies: ['React 18','TypeScript','Vite','React Router','Zustand','Leaflet + React-Leaflet','sql.js','date-fns','Tauri'],
     featured: false,
     year: '2026',
