@@ -258,7 +258,7 @@ const AboutPage = () => {
           <div className="space-y-6">
             {experiences.map((exp, index) => (
               <motion.div
-                key={index}
+                key={`${exp.title}-${exp.company}`}
                 className="relative pl-8 pb-6 border-l-2 border-anthropic-taupe/20 last:pb-0"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
