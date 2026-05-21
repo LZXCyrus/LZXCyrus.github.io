@@ -45,6 +45,16 @@ const AboutPage = () => {
       ),
     },
     {
+      title: 'GraphShield: Spatiotemporal Fusion for Risk Propagation Containment in Financial Networks',
+      company: 'Applied Soft Computing',
+      period: '2026',
+      description: (
+        <>
+          Yu, G., Chen, Y., <span className="font-bold">Li, Z.</span>, & Wang, J.
+        </>
+      ),
+    },
+    {
       title: 'A Multiscale Time-series Decomposition Learning for Crude Oil Price Forecasting',
       company: 'Energy Economics',
       period: '2024',
